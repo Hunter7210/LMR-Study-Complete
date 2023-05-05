@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(54, 52, 52);
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 7vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+header img{
+    height: 80%;
+}
+header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(51, 48, 48);
+    text-transform: uppercase;   /* PARA COLOCAR EM LETRA MAIUSCULA */
+}
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger{
+        display: inline;
+    }
+    header nav{
+        display: none;
+    }
+}
+
+.fundo {
+    background-image:image-set();
+    width: 60%;
+}
+
+.escritafundo{
+
+}

@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(101, 41, 41);
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    width: 60%;
+    height: 80px;
+    padding: 60px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: -1px -2px 5px 13px rgb(255, 230, 230) (230, 225, 225, 0.75);
+    background-color: rgba(109, 32, 32, 0.373);
+}
+.menu a {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+.produto1 {
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto1 img {
+    width: 30%;
+    height: 50%;
+    display: flexbox;
+   justify-content: center; 
+}
+.produto2 {
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto2 img {
+    width: 30%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto3 {
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+.produto3 img {
+    width: 30%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto4 {
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto4 img {
+    width: 30%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto5 {
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto5 img {
+    width: 30%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto6 {
+    width: 50%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.produto6 img {
+    width: 30%;
+    height: 50%;
+    display: flexbox;
+    justify-content: center;
+}
+.texto-banner h1 {
+    color: rgb(50, 35, 9);
+    font-size: 60px;
+background-color: #9f5c21cc;
+display: flexbox;
+    justify-content: center;
+}
+.banner img {
+    width: 50%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+

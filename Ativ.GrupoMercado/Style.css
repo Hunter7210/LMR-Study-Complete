@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(62, 62, 21);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Barra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(116, 11, 11);
+    letter-spacing: 2px;
+}
+
+.LImage {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.Links {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 3px;
+}
+
+.Links li {
+    list-style: none;
+}
+
+.Links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+.container {
+    position: relative;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.container img {
+    width: 100%;
+    height: 600px;
+    opacity: 0.6;
+}
+
+.container p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    color: #000000;
+}
+
+.center .Sub-tit {
+    font-size: 20px;
+    color: #000000;
+}
+
+.Banner {
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.Banner img {
+    width: 100%;
+    height: 300px;
+}
+
+.Marcas {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.Marcas img {
+
+    width: 50%;
+    padding: 50px;
+    height: 600px;
+}
+
+.Texto {
+    width: 100%;
+    height: 200px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #000000;
+}
+
+.Texto p {
+    font-size: 15px;
+}
+
+
+
+.Local {
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #000000;
+}
+
+.Local inframe {
+    width: 100%;
+    height: 800px;
+}
+
+.Tlocal {
+    font-size: 40px;
+    padding: 50px;
+}
+
+
+
+/* AQUI COMEÇA OS CARDS */
+.CardsPag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardsPag a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Pag {
+    background-color: rgb(163, 167, 167);
+    width: 350px;
+    height: 200PX;
+    margin: 20px;
+    padding: 30px;
+    border-style: double;
+    border-radius: 20px;
+}
+
+.Pag h2 {
+    color: #000;
+}
+
+.Pag p {
+    color: rgb(10, 11, 10);
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Image {
+    float: right;
+    max-width: 200px;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+.Cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Cards2 a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.Baixo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Abaixo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+
+.BImage {
+    max-width: 150px;
+    max-height: 300px;
+}
+
+.BLinks {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 3px;
+}
+
+.BLinks li {
+    list-style: none;
+
+}
+
+.BLinks a {
+    color: #ffffff;
+    text-decoration: none;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

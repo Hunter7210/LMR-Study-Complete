@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #C3002F;
+    height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        margin: 0;
+        height: 50px;
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+}
+
+.Menu-h {
+    display: flex;
+}
+
+.Menu-h ul {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.Menu-h a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#Menu-Img {
+    flex-direction: column;
+    justify-content: center;
+    width: 90px;
+    height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .Menu-h ul li a {
+        display: none;
+    }
+
+    #Menu-Img {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+    }
+}
+
+#Pesquisa img {
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+#Pesquisa input {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(154, 154, 154);
+    height: 30px;
+    border: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    #Pesquisa input {
+        display: none;
+    }
+
+    #Pesquisa img {
+        align-items: end;
+        padding: 0;
+        width: 20px;
+
+    }
+
+    #Pesquisa li {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.banner img {
+    width: 100%;
+    height: 700px;
+}
+
+@media screen and (max-width:768px) {
+    .banner img {
+        width: 100%;
+        height: 430px;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+.Texto-m {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    color: #C3002F;
+    justify-content: flex-start;
+    margin-left: 90px;
+    font-size: 40px;
+    padding: 5px;
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .Texto-m {
+        font-size: 20px;
+        justify-content: center;
+        margin: 10px;
+    }
+
+}
+
+#Caixa1 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    max-width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+#Caixa2 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    max-width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+#Caixa3 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    max-width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.cards {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 70, 70);
+}
+
+.cards img {
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width:768px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .cards img {
+        display: flex;
+        width: 60%;
+        justify-content: center;
+    }
+
+    #Caixa1 #Caixa2 #Caixa3 {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        width: 60%;
+    }
+
+    #Caixa1 #Caixa2 #Caixa3 p {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+
+}
+
+.Rodape {
+    display: flex;
+    width: 100%;
+    background-color: #C3002F;
+    margin: 0;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+}
+
+.Rodape a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.Rodape li {
+    padding: 7px;
+    list-style: none;
+}
+
+#img-r {
+    height: 150px;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+    .Rodape {
+        display: flex;
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+
+    .Rodape a li ul {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    #img-r {
+        order: -1;
+    }
+
+    #img-r img {
+        width: 150px;
+        display: flex;
+    }
+
+}

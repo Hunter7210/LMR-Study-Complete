@@ -1,0 +1,173 @@
+#Retangulo {
+    /* Retângulo */
+    background-color: #ed0000;
+    position: absolute;
+    width: 545px;
+    height: 788px;
+    left: 40px;
+    top: 118px;
+}
+
+.Escrito {
+    /* Config Letras */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+.Escrito h1 {
+    /* Config Titulo */
+    position: absolute;
+    width: 427px;
+    height: 65px;
+    left: 48px;
+    top: 34px;
+    line-height: 38px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.Escrito h2 {
+    /* NOME: */
+    position: absolute;
+    width: 227px;
+    height: 47px;
+    left: 33px; 
+    font-size: 30px;
+    line-height: 36px;  
+}
+
+#Name {
+    top: 115px;
+}
+#Email {
+    top: 286px;
+}
+
+#Mensagem {
+    top: 447px;
+}
+
+.Caixas {
+    position: absolute;
+    left: 39px;
+    top: 169px;
+    margin-top: 8px;
+}
+
+#Name1 {
+    font-size: 30px;
+    width: 467px;
+    height: 81px;
+    top: 238;
+}
+
+#Email1 {
+    font-size: 30px;
+    margin-top: 88px;
+    width: 467px;
+    height: 81px;
+}
+
+#Mensagem1 {
+    font-size: 30px;
+    margin-top: 78px;
+    width: 467px;
+    height: 175px;
+}
+
+#Enviar1 {
+    /* BOTÃO */
+    margin-top: 8px;
+    margin-left: 290px;
+    width: 184px;
+    height: 62px;
+    left: 362px;
+    top: 808px;
+
+    border-color: #ffffff;
+    background-color: #ffffff;
+    /* LETRA BOTÃO */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.Retangulo2 {
+    /* Retangulo2(Cinza) */
+    background-color: #9c9494;
+    height: 617px;
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 203px;
+}
+.IMG {
+    /* Imagem */
+    position: absolute;
+    margin: 0;
+    top: 39%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+.IMG1 {
+    /* Imagem */
+    position: absolute;
+    margin: 0;
+    top: 62%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.IMG2 {
+    /* Imagem */
+    position: absolute;
+    margin: 0;
+    top: 85%;
+    left:46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#Facebook{  /* Escrita*/ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    width: 700px;
+    color: #000000;
+    position: absolute;
+    margin: 0;
+    margin-left: 430px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#Whatsapp{  /* Escrita*/ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    width: 700px;
+    color: #000000;
+    position: absolute;
+    margin: 0;
+    margin-left: 430px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#Linkedin{  /* Escrita*/ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    width: 700px;
+    color: #000000;
+    position: absolute;
+    margin: 0;
+    margin-left: 430px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
