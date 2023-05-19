@@ -1,0 +1,16 @@
+body{
+    display: flex;
+}
+.botoes button{
+    background-color: darkorange;
+    width: 20vh;
+    
+    justify-content: space-around;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    text-align: center;
+}
+prompt {
+    background-color: aquamarine;
+}
